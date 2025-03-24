@@ -22,7 +22,7 @@ jobs:
         cache: sbt
     
     - name: Set up SBT
-      uses: sbt/setup-sbt@d02b7c9920deb761624de4ec76249d9c76f00ca7  # v1
+      uses: sbt/setup-sbt@26ab4b0fa1c47fa62fc1f6e51823a658fb6c760c # v1
       
     - name: Compile and test
       run: sbt compile Test/compile test
